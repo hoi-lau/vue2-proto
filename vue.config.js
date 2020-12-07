@@ -28,7 +28,11 @@ module.exports = {
       }
     },
     plugins: [
-      new BundleAnalyzerPlugin(),
+      new BundleAnalyzerPlugin({
+        analyzerMode: 'static',
+        reportFilename: '../report.htm',
+        openAnalyzer: false
+      }),
       new CompressionWebpackPlugin({
         algorithm: 'gzip',
         test: new RegExp('\\.(js|css|ttf|woff)$'), // 需要压缩的文件类型
