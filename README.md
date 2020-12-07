@@ -27,6 +27,7 @@ npm run lint
  - axios
  - stylus
  - eslint (rules)
+ - editorconfig
  - babel
  - nprogress
  - husky & lint-staged
