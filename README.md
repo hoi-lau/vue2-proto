@@ -25,9 +25,10 @@ npm run lint
  - vuex
  - vue-router
  - axios
- - stylus
- - eslint (rules) && editorconfig && prettierrc
- - babel
  - nprogress
+ - stylus
+ - jsx
+ - eslint (rules) && editorconfig && prettierrc
+ - babel config
  - husky & lint-staged
  - webpack-bundle-analyzer
